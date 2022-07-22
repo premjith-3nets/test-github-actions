@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main # or the name of your main branch
+  
+
+jobs:
+  SonarQube:
+    uses: premjith-3nets/reusable-workflows/.github/workflows/sonarqube.yml@main
+    
+
+
